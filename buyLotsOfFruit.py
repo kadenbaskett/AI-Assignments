@@ -41,7 +41,7 @@ def buyLotsOfFruit(orderList):
         if item[0] in fruitPrices:
             totalCost += (fruitPrices[item[0]] * item[1]);
         else:
-            return "None";
+            return None;
 
     return totalCost
 
